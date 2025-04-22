@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: 'Arial', 'Segoe UI Emoji', 'Apple Color Emoji', sans-serif;
+
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+header {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.highlight {
+  color: #ffe600;
+}
+
+.tagline {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.projects {
+  padding: 3rem 0;
+}
+
+.projects h2,
+.contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  gap: 1rem;
+}
+
+.contact input,
+.contact textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+h2 {
+    font-size: 2.5em;
+    color: #4b5efc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #a84bf7;
+    display: block; /* Changed from inline-block to block */
+    margin: 0 auto; /* Centers the block element */
+    padding-bottom: 5px;
+    animation: slideIn 1.5s;
+}
+
+.contact button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact button:hover {
+  background: #5a67d8;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #eee;
+}
